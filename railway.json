@@ -1,4 +1,8 @@
 {
-  "build": "pip install -r requirements.txt",
+  "build": {
+    "commands": [
+      "pip install -r requirements.txt"
+    ]
+  },
   "start": "python telbot.py"
 }
