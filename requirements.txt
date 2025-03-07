@@ -2,3 +2,7 @@
 python telbot.py
 chmod +x start.sh
 ./start.sh
+Flask
+gunicorn
+requests
+python-dotenv
